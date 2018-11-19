@@ -19,7 +19,7 @@ const newReadyxStorage: Readyx = new Readyx(
     // Reduces
     reducer: (state: State, action: Action) => any,
     // Initialize state
-    state: State | any
+    state: State
 );
 ```
 После, можно назначить слушатель (то, что происходит перед изменением состояние):
